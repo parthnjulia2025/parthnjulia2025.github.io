@@ -90,7 +90,7 @@
             }
 
             .background {
-                background-position: left center;
+                background-position: calc(left + 150px) center;
             }
 
             .title {
@@ -104,6 +104,12 @@
             .button {
                 font-size: 1rem;
                 padding: 0.8rem 1.5rem;
+            }
+        }
+
+        @media (orientation: portrait) {
+            .background {
+                background-position: calc(left + 150px) center;
             }
         }
     </style>
